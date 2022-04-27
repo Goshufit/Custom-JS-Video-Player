@@ -12,7 +12,7 @@ function togglePlay() {
     } else {
         video.pause();
     }
-}
+};
 
 function updateButton() {
     if (this.paused === true) {
@@ -20,8 +20,9 @@ function updateButton() {
     } else {
         `❚ ❚`
     }
-    toggle.textContent = icon;
     const icon = this;
+    toggle.textContent = icon;
+    
     console.log(icon)
 }
 
